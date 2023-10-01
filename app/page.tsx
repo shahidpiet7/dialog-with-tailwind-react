@@ -22,7 +22,7 @@ export default function Home() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log('User Added..!!');
+    console.log('User Added Successfully..!!');
     setIsShowFirstmodal(false);
     setIsShowSuccessDialog(true);
   };
